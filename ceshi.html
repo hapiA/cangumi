@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			var curIndex=0;
+			//时间bai间隔 单位du毫秒
+			var timeInterval=10000;
+			var arr=new Array();
+			arr[0]="a2.png";
+			arr[1]="a3.png";
+			arr[2]="a4.png";
+			arr[3]="a5.png";
+			arr[4]="a6.png";
+			arr[5]="a7.png";
+			arr[6]="a8.png";
+			setInterval(changeImg,timeInterval);
+			function changeImg()
+			{
+			var obj=document.getElementById("showpic");
+			if (curIndex==arr.length-1)
+			{
+			curIndex=0;
+			}
+			else
+			{
+			curIndex+=1;
+			}
+			obj.src="img/images/"+arr[curIndex];
+			}
+		</script>
+	</head>
+	<body>
+		<img src="img/images/a2.png" width="427" height="219" id="showpic" />
+	</body>
+</html>

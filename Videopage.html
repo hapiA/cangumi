@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="css/spigPet.css" type="text/css" />
+		<link rel="stylesheet" href="css/stylel.css">
+		<link type="text/css" href="css/Musicbutton.css" rel="stylesheet" />
+		<style type="text/css">
+			div ul li:hover {
+				border-radius: 25px;
+				background: #F2DEDE;
+			}
+
+			div ul li:hover ul {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="spig" class="spig" style="margin-top:160px;margin-left:-195px;">
+			<div id="message">正在加载中……</div>
+			<div id="mumu" class="mumu"></div>
+		</div>
+
+		<nav class="navbar navbar-default" style="z-index: 7;">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					 aria-expanded="false">
+						<span class="sr-only">菜单</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="img/images/logo图片.png" width="50" height="50" style="position: relative;top: -20px;left: 30px;" id="showpic" />
+						<img src="img/images/logo字体.png" width="180" height="100" style="margin-top: -40px;" />
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="text-align: center;">
+					<ul class="nav navbar-nav">
+						<li class="dropdown"><a href="cartoon.html">动画</a>
+							<ul class="dropdown-menu" style="border-radius: 15px;">
+								<li><a href="cartoonrankinglist.html">排行榜</a></li>
+								<li><a href="cartooneveryday.html">每日放送</a></li>
+								<li><a href="cartoonlabel.html">动画标签</a></li>
+								<li><a href="cartoonrankinglist.html">分类浏览</a></li>
+								<li><a href="cartoonjournal.html">动画日志</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="books .html">书籍</a>
+							<ul class="dropdown-menu" style="border-radius: 15px;">
+								<li><a href="booksrankinglist.html">排行榜</a></li>
+								<li><a href="bookslabel.html">图书标签</a></li>
+								<li><a href="booksrankinglist.html">分类浏览</a></li>
+								<li><a href="booksjournal.html">图书日志</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="music.html">音乐</a>
+							<ul class="dropdown-menu" style="border-radius: 15px;">
+								<li><a href="musicrankinglist.html">排行榜</a></li>
+								<li><a href="musiclabel.html">音乐标签</a></li>
+								<li><a href="musicrankinglist.html">分类浏览</a></li>
+								<li><a href="musicjournal.html">音乐日志</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="game.html">游戏</a>
+							<ul class="dropdown-menu" style="border-radius: 15px;">
+								<li><a href="gamerankinglist.html">排行榜</a></li>
+								<li><a href="gamelabel.html">游戏标签</a></li>
+								<li><a href="gamerankinglist.html">平台浏览</a></li>
+								<li><a href="gamejournal.html">游戏日志</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="three-D.html">三次元</a>
+							<ul class="dropdown-menu" style="border-radius: 15px;">
+								<li><a href="three-Drankinglist.html">排行榜</a></li>
+								<li><a href="three-Dlabel.html">三次元标签</a></li>
+								<li><a href="three-Drankinglist.html">三次元日志</a></li>
+								<li><a href="three-Drankinglist.html">日剧</a></li>
+								<li><a href="three-Drankinglist.html">欧美剧</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="请输入内容" style="border-radius: 15px;">
+						</div>
+						<button type="submit" class="btn btn-default">搜索</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="Logintoregister.html">登入</a>
+						</li>
+						<li>
+							<a href="Logintoregister.html">注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="panel panel-default" id="accordion3">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion3" data-target="#content3" href="#" style="color: #000000;">
+								游戏信息
+							</a>
+
+						</div>
+						<div id="content3" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<div align="center">
+									<img src="img/202006053483094.jpg" style="width: 100%;height: 250px;border: 4px solid #EEEEEE;" />
+								</div>
+								<div style="text-align: center;">
+									<p align="center"><a href="#">致命躯壳</a></p>
+								</div>
+								<div style="margin-left: 15px;">
+									<span class="glyphicon glyphicon-home">&nbsp;游戏类型：角色扮演RPG</span>
+									<span class="glyphicon glyphicon-file">&nbsp;制作公司：Cold Symmetry</span>
+									<span class="glyphicon glyphicon-phone">&nbsp;英文/中文/其他</span>
+									<span class="glyphicon glyphicon-envelope">&nbsp;发行公司：Playstack</span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+					<div class="panel panel-default panel-info" style="margin-top: 10px;" id="accordion4">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion4" data-target="#content4" href="#" style="color: #000000;">
+								媒体平均分：8.2
+							</a>
+						</div>
+						<div id="content4" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<div class="col-md-4">
+									画面
+								</div>
+								<div class="col-md-8">
+									<div class="progress progress-striped">
+										<div class="progress-bar progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="sr-only"></span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									剧情
+								</div>
+								<div class="col-md-8">
+									<div class="progress progress-striped">
+										<div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											<span class="sr-only"></span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									音效
+								</div>
+								<div class="col-md-8">
+									<div class="progress progress-striped">
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+											<span class="sr-only"></span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									乐趣
+								</div>
+								<div class="col-md-8">
+									<div class="progress progress-striped">
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											<span class="sr-only"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="panel panel-default panel-info" id="accordion5">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion5" data-target="#content5" href="#" style="color: #000000;">
+								联系我们
+							</a>
+						</div>
+						<div id="content5" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-4 control-label">电子邮箱</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" placeholder="email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-4 control-label">用户名</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" placeholder="name">
+										</div>
+									</div>
+								</form>
+								<div class="pull-right">
+									<button type="button" class="btn btn-default">发送</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="col-md-9">
+					<div class="jumbotron">
+						<div class="container">
+							<p style="font-size: 14px;text-align: right;">
+								《致命躯壳》是一款残酷刺激的深度动作类 RPG 游戏。在这个支离破碎的世界中，您的精神和适应能力都将受到严峻的挑战。残存的人类仍在不断消亡，而残忍的敌人却在废墟之上日益壮大。他们毫无怜悯之心，只有在生存的欲望中磨炼出的超强感知力、精准度和直觉。搜寻虔诚信徒的秘密圣地，找出您真实的目的。
+							</p>
+						</div>
+					</div>
+
+					<div class="panel panel-default panel-info" style="margin-top: -20px;" id="accordion">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion" data-target="#content" href="#" style="color: #000000;">
+								游戏展示
+							</a>
+						</div>
+						<div id="content" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<div class="col-md-4" style="border: 1px #ADADAD solid; margin-left: 30px;width: 230px;padding: 5px;height: 200px;border-radius:3px;">
+									<img src="img/2020040214940660.jpg" style="width: 100%;height: 150px;" />
+									<br><br>
+									<p align="center"><a href="#">熔岩岛</a></p>
+								</div>
+								<div class="col-md-4" style="border: 1px #ADADAD solid; margin-left: 30px;width: 230px;padding: 5px;height: 200px;border-radius:3px;">
+									<img src="img/2020040214941204.jpg" style="width: 100%;height: 150px;" />
+									<br><br>
+									<p align="center"><a href="#">无底洞</a></p>
+								</div>
+								<div class="col-md-4" style="border: 1px #ADADAD solid; margin-left: 30px;width: 230px;padding: 5px;height: 200px;border-radius:3px;">
+									<img src="img/2020040214941239.jpg" style="width: 100%;height: 150px;" />
+									<br><br>
+									<p align="center"><a href="#">黑暗森林</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="panel panel-default panel-danger" style="margin-top: -10px;" id="accordion1">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion1" data-target="#content1" href="#" style="color: #000000;">
+								媒体评论
+							</a>
+						</div>
+						<div id="content1" class="panel-collapse collapse in">
+							<table class="table">
+								<tr>
+									<td>
+										游侠网
+									</td>
+									<td>
+										有趣的硬化机制，美术风格很有魂味儿，清晰的进度引导，但boss战设计水准参差不齐，流程较短
+									</td>
+									<td>
+										8.2分
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Metacritic
+									</td>
+									<td>
+										是一款类似于《黑暗之魂》的愉快作品，有好的想法，也有迷人的黑暗幻想世界，但执行起来并不完美
+									</td>
+									<td>
+										7.6分
+									</td>
+								</tr>
+								<tr>
+									<td>
+										IGN
+									</td>
+									<td>
+										巧妙的身体切换机制提供了多变的玩法和探索内容，是这类游戏中的一流，短小精干的流程有自己的亮点
+									</td>
+									<td>
+										8.0分
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+
+					<div class="panel panel-default panel-primary" style="margin-top: -10px;" id="accordion2">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#accordion2" data-target="#content2" href="#" style="color: #000000;">
+								玩家评论
+							</a>
+						</div>
+						<div id="content2" class="panel-collapse collapse in">
+							<table class="table">
+								<tr>
+									<th>
+										-EX-
+									</th>
+									<th>
+										看起来不错的感觉
+									</th>
+									<th>
+										推荐
+									</th>
+								</tr>
+								<tr>
+									<td>
+										游侠网-u980C4
+									</td>
+									<td>
+										期待一下，希望有更多优秀魂类游戏面世
+									</td>
+									<td>
+										推荐
+									</td>
+								</tr>
+								<tr>
+									<td>
+										游侠网-nXfXH0
+									</td>
+									<td>
+										比只狼还难玩  直接卸载
+									</td>
+									<td>
+										不推荐
+									</td>
+								</tr>
+								<tr>
+									<td>
+										ahu8860
+									</td>
+									<td>
+										故事没有叙述，也不懂玩什么就打打跑图，没有意思
+									</td>
+									<td>
+										不推荐
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/spig.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		var curIndex = 0;
+		//时间bai间隔 单位du毫秒
+		var timeInterval = 5000;
+		var arr = new Array();
+		arr[0] = "logoface0.png";
+		arr[1] = "logoface1.png";
+		arr[2] = "logoface2.png";
+		arr[3] = "logoface3.png";
+		arr[4] = "logoface4.png";
+		setInterval(changeImg, timeInterval);
+
+		function changeImg() {
+			var obj = document.getElementById("showpic");
+			if (curIndex == arr.length - 1) {
+				curIndex = 0;
+			} else {
+				curIndex += 1;
+			}
+			obj.src = "img/images/" + arr[curIndex];
+		}
+
+
+		var isindex = true;
+		var visitor = true;
+
+		$(function() {
+			var interval;
+			$(".containerl img").click(function cover() {
+				$(this).addClass("zoom").fadeOut(700, append);
+
+				function append() {
+					$(this).removeClass("zoom").appendTo(".containerl").show();
+					var name = $(".containerl").children("img").first().attr("alt");
+					$(".name p").text("No " + name);
+				}
+			})
+
+			function auto() {
+				var play = $(".containerl").children("img").first();
+				play.addClass("zoom").fadeOut(700, append);
+
+				function append() {
+					$(this).removeClass("zoom").appendTo(".containerl").show();
+					var name = $(this).parent().children("img").first().attr("alt");
+					$(".name p").text("No " + name);
+				}
+				interval = setTimeout(auto, 5000);
+			}
+
+			$(".containerl img").hover(function() {
+				stopPlay();
+			}, function() {
+				interval = setTimeout(auto, 5000);
+			})
+
+			function stopPlay() {
+				clearTimeout(interval)
+			}
+			auto();
+		})
+	</script>
+</html>
